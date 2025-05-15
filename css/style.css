@@ -2101,7 +2101,7 @@ li.opened > a > .open_child_menu:before {
         left: 10px;
         right: 10px;
         height: 120px;
-        background: url('/images/chenara.png') no-repeat center top;
+        background: url('/images/chenar.png') no-repeat center top;
         background-size: cover;
         z-index: 10;
         pointer-events: none;

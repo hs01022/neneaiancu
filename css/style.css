@@ -2055,44 +2055,7 @@ li.opened > a > .open_child_menu:before {
 
 /* Codul tău original — păstrat pentru desktop */
 
-/* Linia de sus */
-.top_panel_over .slider_wrap .slotholder::before {
-    content: '';
-    position: absolute;
-    top: 2.9em;
-    left: 2.9em;
-    right: 2.9em;
-    height: 800px;
-    background: url('../images/chenar1.png') no-repeat center;
-    background-size: contain;
-    z-index: 1;
-    pointer-events: none;
-}
 
-
-
-/* Doar pe mobil */
-@media (max-width: 768px) {
-    .top_panel_over .slider_wrap .slotholder {
-        position: relative;
-        overflow: visible;
-        z-index: 0;
-    }
-
-    .top_panel_over .slider_wrap .slotholder::after {
-        content: '';
-        display: block;
-        position: absolute;
-        bottom: 5%;
-        left: 5%;
-        right: 5%;
-        height: 30vh;
-        background: url('../images/chenar1.png') no-repeat center bottom;
-        background-size: contain;
-        z-index: 10;
-        pointer-events: none;
-    }
-}
 
 
 

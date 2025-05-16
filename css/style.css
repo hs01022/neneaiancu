@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 /*
 Theme Name: OldStory HTML
 Theme URI: http://oldstory-html.ancorathemes.com/
@@ -2064,7 +2063,7 @@ li.opened > a > .open_child_menu:before {
     left: 2.9em;
     right: 2.9em;
     height: 800px;
-    background: url('/images/chenar1.png') no-repeat center;
+    background: url('../images/chenar1.png') no-repeat center;
     background-size: contain;
     z-index: 1;
     pointer-events: none;
@@ -2078,13 +2077,11 @@ li.opened > a > .open_child_menu:before {
     left: 2.9em;
     right: 2.9em;
     height: 40px;
-    background: url('/images/chenar.jpg') no-repeat center;
+    background: url('../images/chenar.jpg') no-repeat center;
     background-size: contain;
     z-index: 1;
     pointer-events: none;
 }
-
-
 
 /* Doar pe mobil */
 @media (max-width: 768px) {
@@ -2102,7 +2099,7 @@ li.opened > a > .open_child_menu:before {
         left: 10px;
         right: 10px;
         height: 120px;
-        background: url('/images/chenar.png') no-repeat center top;
+        background: url('../images/chenar.png') no-repeat center top;
         background-size: cover;
         z-index: 10;
         pointer-events: none;
@@ -2116,12 +2113,13 @@ li.opened > a > .open_child_menu:before {
         left: 10px;
         right: 10px;
         height: 250px;
-        background: url('/images/chenar1.png') no-repeat center bottom;
+        background: url('../images/chenar1.png') no-repeat center bottom;
         background-size: cover;
         z-index: 10;
         pointer-events: none;
     }
 }
+
 
 
 

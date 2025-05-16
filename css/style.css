@@ -2070,18 +2070,18 @@ li.opened > a > .open_child_menu:before {
 }
 
 /* Linia de jos */
-.top_panel_over .slider_wrap .slotholder::after {
+/* .top_panel_over .slider_wrap .slotholder::after {
     content: '';
     position: absolute;
     bottom: 2.9em;
     left: 2.9em;
     right: 2.9em;
     height: 40px;
-    background: url('../images/chenar.jpg') no-repeat center;
+    background: url('../images/chenar.png') no-repeat center;
     background-size: contain;
     z-index: 1;
     pointer-events: none;
-}
+} */
 
 /* Doar pe mobil */
 @media (max-width: 768px) {
@@ -2091,7 +2091,7 @@ li.opened > a > .open_child_menu:before {
         z-index: 0;
     }
 
-    .top_panel_over .slider_wrap .slotholder::before {
+    /* .top_panel_over .slider_wrap .slotholder::before {
         content: '';
         display: block;
         position: absolute;
@@ -2103,7 +2103,7 @@ li.opened > a > .open_child_menu:before {
         background-size: cover;
         z-index: 10;
         pointer-events: none;
-    }
+    } */
 
     .top_panel_over .slider_wrap .slotholder::after {
         content: '';
